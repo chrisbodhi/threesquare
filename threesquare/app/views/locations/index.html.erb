@@ -3,7 +3,11 @@
 <% @locations.each do |place| %>
   <div>
     <%= link_to place.name, place %>
+    <br />
     <img src="<%= place.pic_url %>" style="height:100px;"/>
-    <%= place.snippet %>
+    <br />
+    <%= place.snippet.add_link %>
+    <br>
+    <%= link_to 'Destroy', place, method: :delete, data: { confirm: 'Are you sure?' } %>
   </div>
 <% end %>
