@@ -1,0 +1,10 @@
+<h1>Places to Ruck</h1>
+
+<% @locations.each do |place| %>
+  <p><%= place.name %></p><br>
+  <img src="<%= place.pic_url %>" /><br>
+<% end %>
+
+<% @locations.each do |place| %>
+  <p><%= place.snippet %></p> 
+<% end %>
