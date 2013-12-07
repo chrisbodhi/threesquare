@@ -3,6 +3,9 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.1'
 
+# Twilio gem used for testing usage
+gem 'twilio-ruby'
+
 # For debugging in development
 group :development do
   gem 'better_errors'
