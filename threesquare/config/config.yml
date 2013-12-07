@@ -1,0 +1,7 @@
+twilio:
+  sid: 'ACef0d534bb53901be6964325064522086'
+  token: '358346907479ae440807d8af52658c31'
+  from: "4124074446" #string or int?
+
+# for testing:
+to: 4122256085
