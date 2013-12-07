@@ -6,7 +6,9 @@
     <br />
     <img src="<%= place.pic_url %>" style="height:100px;"/>
     <br />
-    <%= place.snippet.add_link %>
+    <%= place.snippet %>
+    <br>
+    <%= link_to 'Edit', edit_location_path(place) %>
     <br>
     <%= link_to 'Destroy', place, method: :delete, data: { confirm: 'Are you sure?' } %>
   </div>
